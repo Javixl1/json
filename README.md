@@ -1,2 +1,2 @@
 # json
-This repository is a copile of json VI's focus on the read file. More feachures can be added in future. A VIPM tool can be updated short
+This repository is a collection of JSON-based VIs focused on configuration‑file reading. It currently includes an abstract class and a JSON child class, and it is designed to be extended in the future. Additional features—such as a TXT child class for reading plain‑text configuration files—will be added later. A VIPM package can also be updated shortly
