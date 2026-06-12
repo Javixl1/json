@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-05-02 23:31:57" Modified_Date="2026-05-11 21:00:23" Creator="javix" Comments="" ID="905e5500b7edeec92bb537a8686bb8c3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-05-02 23:31:57" Modified_Date="2026-06-11 22:44:35" Creator="javix" Comments="" ID="ffbca17d6bd30234cdb7129575073fd1">
   <Library_General_Settings>
     <Package_File_Name>Javier_Lopez_lib_Configuration_File</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -19,6 +19,7 @@
     <Package_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 6.0.0.45</External_Dependencies>
+      <Additional_External_Dependencies>lava_lib_json_api &gt;=1.5.5.41</Additional_External_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
     </Package_Dependencies>
@@ -167,8 +168,8 @@
       <Windows_7>true</Windows_7>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
-      <Mac_OS>true</Mac_OS>
-      <Linux>true</Linux>
+      <Mac_OS>false</Mac_OS>
+      <Linux>false</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
@@ -239,7 +240,7 @@
         <Path>Json Element\Json Tester.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCE529392BF0D72B6C54F514544FA0AB</GUID>
+      <GUID>BF87DDEBF2B8367C867D2B15E0476279</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -456,7 +457,7 @@
         <Path>Json Element\Get array of DBL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC562EA2B877A616E04105079D057B63</GUID>
+      <GUID>1E431A44AEB885F33641F572B50156D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
