@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-05-02 23:31:57" Modified_Date="2026-06-11 22:44:35" Creator="javix" Comments="" ID="ffbca17d6bd30234cdb7129575073fd1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-05-02 23:31:57" Modified_Date="2026-08-30 20:32:00" Creator="javix" Comments="" ID="718edd57f251a9f5fe263c9961e96c84">
   <Library_General_Settings>
     <Package_File_Name>Javier_Lopez_lib_Configuration_File</Package_File_Name>
     <Library_Version>1.0.0.4</Library_Version>
@@ -14,6 +14,8 @@
     <Product_Name>Configuration File</Product_Name>
     <Was_Built>true</Was_Built>
     <Target>LabVIEW</Target>
+    <Package_LabVIEW_Save_Version>false</Package_LabVIEW_Save_Version>
+    <LabVIEW_Save_Version/>
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
@@ -115,13 +117,10 @@
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>Build_Javier_Lopez_lib_Configuration_File</Namespace>
+        <Namespace>Json</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>javier_lopez_lib_configuration_file-1.0.0.1.vip</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>README.md</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -226,21 +225,7 @@
         <Path>Json Element</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Json Tester.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Json Tester.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>BF87DDEBF2B8367C867D2B15E0476279</GUID>
+      <GUID>66FD259C7EE1C6942278E2E8EE56C84A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -264,20 +249,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get array of String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Get array of String.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get Boolean.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -287,20 +258,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>Json Element\Get Boolean.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get DBL.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Get DBL.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -320,20 +277,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get I32.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Get I32.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get I64.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -343,20 +286,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>Json Element\Get I64.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Path.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Get Path.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -376,20 +305,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Get String.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get U32.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -399,20 +314,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>Json Element\Get U32.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get U64.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Get U64.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -432,20 +333,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Move to Level.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Json Element\Move to Level.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get array of DBL.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -457,7 +344,7 @@
         <Path>Json Element\Get array of DBL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E431A44AEB885F33641F572B50156D5</GUID>
+      <GUID>C80AF0D3D04C1D4B3C89E6F1EB6A1CA2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
