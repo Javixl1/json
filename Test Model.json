@@ -1,0 +1,71 @@
+{
+  "system": {
+    "name": "Test_Station_01",
+    "version": "2.4.1",
+    "active": true,
+    "installationDate": "2026-03-15T08:30:00Z",
+    "lastMaintenance": null,
+    "location": {
+      "plant": "North",
+      "coordinates": {
+        "latitude": 10,
+        "longitude": -66.9036
+      }
+    }
+  },
+  "hardware": {
+    "controller": {
+      "model": "cRIO-9045",
+      "ip": "192.168.1.50",
+      "operatingSystem": "NI Linux Real-Time"
+    },
+    "modules": [
+      {
+        "slot": 1,
+        "model": "NI-9205",
+        "type": "AI",
+        "channels": [
+          { "id": "ai0", "name": "Inlet_Pressure", "unit": "psi", "range": [0, 500], "scale": 1.25, "enabled": true },
+          { "id": "ai1", "name": "Line_Temperature", "unit": "degC", "range": [-40, 150], "scale": 0.5, "enabled": false }
+        ]
+      },
+      {
+        "slot": 2,
+        "model": "NI-9401",
+        "type": "DIO",
+        "channels": [
+          { "id": "dio0", "name": "Main_Valve", "direction": "output", "initialState": false }
+        ]
+      }
+    ]
+  },
+  "acquisition": {
+    "sampleRate_Hz": 1000,
+    "bufferSize": 4096,
+    "mode": "continuous",
+    "filters": {
+      "lowPass": { "enabled": true, "cutoff_Hz": 250.0, "order": 4 },
+      "average": { "enabled": false, "window": 10 }
+    }
+  },
+  "alarms": [
+    { "channel": "ai0", "type": "high", "limit": 450.5, "priority": 1, "notify": ["operator@yourplant.com", "supervisor@yourplant.com"] },
+    { "channel": "ai1", "type": "low", "limit": -10, "priority": 2, "notify": [] }
+  ],
+  "logging": {
+    "filePath": "/home/lvuser/data/",
+    "format": "TDMS",
+    "dailyRotation": true,
+    "metadata": {
+      "operator": "J. Perez",
+      "shift": 2,
+      "tags": ["test", "calibration", "line-A"],
+      "Factor": [1.25, 3.7, -0.5, 100.0, 2.5e-3],
+      "data": [
+                [1.1, 1.2, 1.3, 1.4],
+                [2.1, 2.2, 2.3, 2.4],
+                [3.1, 3.2, 3.3, 3.4]
+              ]
+    }
+  }
+}

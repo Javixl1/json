@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Config Library.lvlib" Type="Library" URL="../Config Library.lvlib"/>
 		<Item Name="Json Tester.vi" Type="VI" URL="../Json Element/Json Tester.vi"/>
+		<Item Name="Test Model.json" Type="Document" URL="../Test Model.json"/>
 		<Item Name="testFile01.vjson" Type="Document" URL="../testFile01.vjson"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
