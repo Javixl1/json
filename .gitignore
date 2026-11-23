@@ -1,0 +1,50 @@
+# =========================================================
+#  .gitignore para proyectos LabVIEW
+# =========================================================
+
+# --- Archivos locales del proyecto (se regeneran solos) ---
+# Estado de la ventana del proyecto
+*.lvlps
+# Alias de IP/targets del equipo local
+*.aliases
+
+# --- Caché de código compilado / temporales ---
+# Copias de seguridad y autoguardado de LabVIEW
+*.bak
+*.lvbak
+~*.vi
+~*.ctl
+~$*
+# Logs de mass compile / VI Analyzer
+*.mcl
+*.log
+
+# --- Salidas de build (Application Builder) ---
+builds/
+build/
+# Librerías empaquetadas, ejecutables y artefactos generados
+*.lvlibp
+*.exe
+*.dll
+*.so
+*.rtexe
+*.msi
+*.zip
+.*.UserState/
+
+# --- VIPM ---
+# Los paquetes construidos se publican como GitHub Releases,
+# no se versionan (evita que un .vip se meta dentro del siguiente)
+*.vip
+*.ogp
+
+# --- Pruebas (Caraya / JKI VI Tester / VI Analyzer) ---
+test-results/
+*.xml.bak
+
+# --- Sistema operativo / editores ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
